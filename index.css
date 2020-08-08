@@ -21,16 +21,16 @@ body{
     font-size: 2.1rem;
     line-height: 2.5em;
     margin-left: 250px;
-    margin-top: 150px;
     font-weight: 900px;
     letter-spacing: 0.3rem;
     color: black;
 }
 
+
 #header img{
     position: absolute;
     width: 450px;
-    height: 400px;
+    height: 430px;
     top: -50px;
     left: 700px;
 }
@@ -41,11 +41,12 @@ body{
     margin-left: 255px;
     margin-top: 20px;
     font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 #icon{
    margin-left: 255px;
-   margin-top: 20px;
+   margin-top: 30px;
 }
 
 .dot1{
@@ -125,12 +126,14 @@ body{
 
 #goals{
     margin-left: 255px;
+    margin-bottom: 20px;
 }
 
 #section p{
     margin-left: 50px;
     color: #C8C8C8;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: lighter;
     padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
 }
