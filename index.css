@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F6F6F6;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+#header{
+    width: 80vw;
+    height: 40vh;
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+#head {
+    font-size: 2.1rem;
+    line-height: 2.5em;
+    margin-left: 250px;
+    margin-top: 150px;
+    font-weight: 900px;
+    letter-spacing: 0.3rem;
+    color: black;
+}
+
+#header img{
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    top: -50px;
+    left: 700px;
+}
+
+#header p{
+    font-weight: lighter;
+    color: #C8C8C8;
+    margin-left: 255px;
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+#icon{
+   margin-left: 255px;
+   margin-top: 20px;
+}
+
+.dot1{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+
+.dot1::before{
+    content: url(./icons8-twitter.svg);
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.dot2{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+
+.dot2::before{
+    content: url(./icons8-facebook-f.svg);
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.dot3{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+
+.dot3::before{
+    content: url(./instagram.svg);
+    position: absolute;
+    top: 8px;
+    left: 8.5px;
+}
+
+#section{
+    width: 70vw;
+    height: 60vh;
+}
+
+#background{
+    margin-left: 255px;
+    margin-bottom: 50px;
+}
+
+.line{
+    float: left;
+    margin-top: 28px;
+    margin-right: 5px;
+    border: 1.5px solid black;
+    width: 40px;
+    
+}
+
+#section h2{
+    font-size: 40px;
+    color: black;
+}
+
+#goals{
+    margin-left: 255px;
+}
+
+#section p{
+    margin-left: 50px;
+    color: #C8C8C8;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
