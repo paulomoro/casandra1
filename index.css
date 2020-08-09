@@ -59,7 +59,7 @@ body{
     margin-right: 15px;
 }
 
-.dot1::before{
+.dot1 a::before{
     content: url(./icons8-twitter.svg);
     position: absolute;
     top: 9px;
@@ -76,7 +76,7 @@ body{
     margin-right: 15px;
 }
 
-.dot2::before{
+.dot2 a::before{
     content: url(./icons8-facebook-f.svg);
     position: absolute;
     top: 8px;
@@ -93,7 +93,7 @@ body{
     margin-right: 15px;
 }
 
-.dot3::before{
+.dot3 a::before{
     content: url(./instagram.svg);
     position: absolute;
     top: 8px;
